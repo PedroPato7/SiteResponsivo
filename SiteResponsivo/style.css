@@ -1,0 +1,383 @@
+body {
+  background-color: #d0daf8;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.logoSite {
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+  max-width: 70px;
+}
+
+header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nomeSite {
+  text-align: left;
+}
+
+.botão {
+  background-color: #333333;
+  bottom: 25vh;
+  color: #4169e1;
+  text-align: center;
+  width: 20vw;
+  height: 10vh;
+  border-radius: 100px;
+  margin-left: 40vw;
+  box-sizing: border-box;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+}
+
+.botãoDesc {
+  background-color: #333333;
+  bottom: 5vh;
+  color: #4169e1;
+  text-align: center;
+  width: 20vw;
+  height: 10vh;
+  border-radius: 100px;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+}
+
+.formCategorias {
+  position: relative;
+  top: 4vh;
+}
+
+.gridDesc {
+  position: relative;
+  margin-left: 20vw;
+  display: grid;
+}
+
+.textDesc {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  position: relative;
+  bottom: 20vh;
+  margin-left: 25vw;
+}
+
+.gridInicio {
+  padding: 100px;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  flex-wrap: nowrap;
+}
+
+.gridCategoria {
+  padding: 100px;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.nomeCategoriaDesc {
+  background-color: #333333;
+  border: 2px solid #4169e1;
+  color: #4169e1;
+  padding: 20px;
+  font-size: 30px;
+  width: 10pc;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  top: 5vh;
+  position: relative;
+}
+
+.nomeCategoria {
+  background-color: #333333;
+  border: 2px solid #4169e1;
+  color: #4169e1;
+  padding: 20px;
+  font-size: 30px;
+  width: 10pc;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  top: 5vh;
+  position: relative;
+}
+
+.gridNome {
+  background-color: #333333;
+  border: 2px solid #4169e1;
+  color: #4169e1;
+  padding: 10px;
+  font-size: 30px;
+  width: 10pc;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  top: 10px;
+  position: relative;
+}
+
+.gridBotao {
+  background-color: #333333;
+  border: 2px solid #4169e1;
+  color: #4169e1;
+  padding: 10px;
+  font-size: 30px;
+  width: 10pc;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  top: 10px;
+  position: relative;
+}
+
+.textButton {
+  color: #4169e1;
+  background-color: #333333;
+  font-size: 4vh;
+  text-align: center;
+  border: 0px;
+  position: relative;
+  text-decoration: none;
+}
+
+.gridImagem {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  display: grid;
+  padding: 0px;
+  margin-bottom: auto;
+}
+
+.imagensDoGrid {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gridImagemDesc {
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  display: grid;
+  padding: 30px;
+  position: relative;
+  top: 12vh;
+  width: 70%;
+}
+
+.gridItemDesc {
+  font-size: 30px;
+  text-align: center;
+  max-height: 30vh;
+  width: 35%;
+  padding: 20px;
+  display: inline-grid;
+  position: relative;
+  top: 0vh;
+}
+
+.caixaTextDesc {
+  position: relative;
+  text-wrap: balance;
+  text-align: justify;
+}
+
+.gridItem {
+  font-size: 30px;
+  text-align: center;
+  max-height: 60vh;
+  margin: auto;
+  width: 25%;
+  padding: 20px;
+}
+
+.cabeçalho {
+  background: #333333;
+  color: #4169e1;
+  padding: 1vh 0;
+  text-align: center;
+}
+
+.swiper-slide img {
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  padding-top: 8vw;
+}
+
+.swiper-pagination {
+  padding-bottom: 29vh;
+}
+
+.swiper-button-prev {
+  padding-left: 70vh;
+}
+
+.swiper-button-next {
+  padding-right: 70vh;
+}
+
+@media screen and (max-width: 600px) {
+  .gridItem {
+    width: 50%;
+    max-height: none;
+  }
+
+  .gridImagem {
+    width: 100%;
+    margin: auto;
+    margin-top: 3vh;
+  }
+
+  .gridInicio {
+    flex-wrap: wrap;
+  }
+
+  .swiper-button-next {
+    padding-right: 21vh;
+  }
+
+  .swiper-button-prev {
+    padding-left: 25vw;
+  }
+
+  .swiper {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    border: #333333;
+  }
+
+  .swiper-pagination {
+    padding-bottom: 18vh;
+  }
+
+  .botão {
+    bottom: 18vh;
+  }
+  
+  .textDesc {
+    width: 75%;
+    padding: 10px;
+    top: 15vh;
+    font-size:medium;
+  }
+
+  .gridImagemDesc{
+    margin-right: 50vw;
+    padding: 0px;
+    height: 50%;
+    width: 50%;
+  }
+
+  .botãoDesc{
+    top: 25vh;
+    padding: 15px;
+    margin: auto;
+    border-radius: 25px;
+    height: fit-content;
+  }
+
+  .gridDesc{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    gap: 15vw;
+  }
+
+  .gridItemDesc{
+    width: 3%;    
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .gridItem {
+    width: 100%;
+  }
+  .swiper-button-next {
+    padding-right: 28vw;
+  }
+
+  .swiper-button-prev {
+    padding-left: 28vw;
+  }
+}
+
+.gridInicio {
+  flex-wrap: wrap;
+}
+
+.gridImagem {
+  width: 50%;
+  margin: auto;
+  margin-top: 3vh;
+}
+
+.gridDesc{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 18vw;
+  gap: 5vw;
+}
+
+.gridItemDesc{
+  width: 3%;    
+}
+
+.textDesc {
+  width: 75%;
+  padding: 10px;
+  top: 15vh;
+  font-size:large;
+}
+
+.gridImagemDesc{
+  margin-right: 50vw;
+  padding: 0px;
+  height: 50%;
+  width: 50%;
+}
+
+.botãoDesc{
+  top: 30vh;
+  padding: 15px;
+  margin: auto;
+  border-radius: 25px;
+  height: fit-content;
+}

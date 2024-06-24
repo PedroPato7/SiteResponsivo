@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdotaPet - Inicío</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabeçalho">
+            <img class="logoSite" src="Imagens/logoAdotaPet.png" alt="logoSite">
+            <h1 class="nomeSite">AdotaPet</h1>
+        </div>
+    </header>
+
+    
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="Imagens/carrossel1.png" alt="img1"></div>
+            <div class="swiper-slide"><img src="Imagens/carrossel2.png" alt="img2"></div>
+            <div class="swiper-slide"><img src="Imagens/carrossel3.png" alt="img3"></div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    
+    <form>
+        <input type="button" onclick="" name="saberMais" class="botão" value="Saiba mais!">
+    </form>
+
+    <form>
+        <!-- Cada item vai ser dividido por 2 divs(Imagem e botão para ver mais)-->
+        <div class="gridInicio">
+            <div class="gridItem">
+                <div class="gridNome">Cachorros</div>
+                <figure class="gridImagem">
+                <img src="Imagens/imgCategoriaCachorros.jpg" alt="akira" class="imagensDoGrid">
+                </figure>
+                <div class="gridBotao"> <a href="categoriaDogs.html" class="textButton"> Ver Mais! </a></div>
+            </div>
+            <div class="gridItem">
+                <div class="gridNome">Gatos</div>
+                <figure class="gridImagem">
+                    <img src="Imagens/imgCategoriaGatos.jpg" alt="akira" class="imagensDoGrid">
+                </figure>
+                <div class="gridBotao"> <a href="categoriaGatos.html" class="textButton"> Ver Mais! </a></div>
+            </div>
+            <div class="gridItem">
+                <div class="gridNome">Patos</div>
+                <figure class="gridImagem">
+                    <img src="Imagens/imgCategoriaPatos.jpg" alt="akira" class="imagensDoGrid">
+                </figure>
+                <div class="gridBotao"> <a href="categoriaPatos.html" class="textButton"> Ver Mais! </a></div>
+            </div>
+            <div class="gridItem">
+                <div class="gridNome">Coelhos</div>
+                <figure class="gridImagem">
+                    <img src="Imagens/imgCategoriaCoelhos.jpg" alt="akira" class="imagensDoGrid">
+                </figure>
+                <div class="gridBotao"> <a href="categoriaCoelhos.html" class="textButton"> Ver Mais! </a></div>
+            </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+
+</html>
